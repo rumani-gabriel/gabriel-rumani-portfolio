@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gabriel-rumani-portfolio/static/css/main.8ec875b1.chunk.css",
-    "main.js": "/gabriel-rumani-portfolio/static/js/main.a0273136.chunk.js",
-    "main.js.map": "/gabriel-rumani-portfolio/static/js/main.a0273136.chunk.js.map",
+    "main.js": "/gabriel-rumani-portfolio/static/js/main.f177f100.chunk.js",
+    "main.js.map": "/gabriel-rumani-portfolio/static/js/main.f177f100.chunk.js.map",
     "runtime-main.js": "/gabriel-rumani-portfolio/static/js/runtime-main.afbcab91.js",
     "runtime-main.js.map": "/gabriel-rumani-portfolio/static/js/runtime-main.afbcab91.js.map",
-    "static/js/2.914b9efb.chunk.js": "/gabriel-rumani-portfolio/static/js/2.914b9efb.chunk.js",
-    "static/js/2.914b9efb.chunk.js.map": "/gabriel-rumani-portfolio/static/js/2.914b9efb.chunk.js.map",
+    "static/js/2.89645088.chunk.js": "/gabriel-rumani-portfolio/static/js/2.89645088.chunk.js",
+    "static/js/2.89645088.chunk.js.map": "/gabriel-rumani-portfolio/static/js/2.89645088.chunk.js.map",
     "index.html": "/gabriel-rumani-portfolio/index.html",
     "static/css/main.8ec875b1.chunk.css.map": "/gabriel-rumani-portfolio/static/css/main.8ec875b1.chunk.css.map",
-    "static/js/2.914b9efb.chunk.js.LICENSE.txt": "/gabriel-rumani-portfolio/static/js/2.914b9efb.chunk.js.LICENSE.txt",
+    "static/js/2.89645088.chunk.js.LICENSE.txt": "/gabriel-rumani-portfolio/static/js/2.89645088.chunk.js.LICENSE.txt",
     "static/media/GAB.05598088.jpg": "/gabriel-rumani-portfolio/static/media/GAB.05598088.jpg",
     "static/media/GabrielRumani .7a51a7c4.gif": "/gabriel-rumani-portfolio/static/media/GabrielRumani .7a51a7c4.gif",
     "static/media/amazon.456edee3.png": "/gabriel-rumani-portfolio/static/media/amazon.456edee3.png",
@@ -18,13 +18,12 @@
     "static/media/bootstrap-4.997c463d.svg": "/gabriel-rumani-portfolio/static/media/bootstrap-4.997c463d.svg",
     "static/media/crud.469289b5.png": "/gabriel-rumani-portfolio/static/media/crud.469289b5.png",
     "static/media/css3.8fba365c.svg": "/gabriel-rumani-portfolio/static/media/css3.8fba365c.svg",
-    "static/media/digital-ocean.744a6973.svg": "/gabriel-rumani-portfolio/static/media/digital-ocean.744a6973.svg",
     "static/media/django.0779fca2.svg": "/gabriel-rumani-portfolio/static/media/django.0779fca2.svg",
     "static/media/formulario.2da0a484.png": "/gabriel-rumani-portfolio/static/media/formulario.2da0a484.png",
     "static/media/git-icon.c60b7e5a.svg": "/gabriel-rumani-portfolio/static/media/git-icon.c60b7e5a.svg",
-    "static/media/github-api.3a5ccf39.svg": "/gabriel-rumani-portfolio/static/media/github-api.3a5ccf39.svg",
     "static/media/github.740db6be.svg": "/gabriel-rumani-portfolio/static/media/github.740db6be.svg",
     "static/media/html-5.821ba738.svg": "/gabriel-rumani-portfolio/static/media/html-5.821ba738.svg",
+    "static/media/j1.ec801321.gif": "/gabriel-rumani-portfolio/static/media/j1.ec801321.gif",
     "static/media/javascript.ba40d6a9.svg": "/gabriel-rumani-portfolio/static/media/javascript.ba40d6a9.svg",
     "static/media/landing.c106da63.png": "/gabriel-rumani-portfolio/static/media/landing.c106da63.png",
     "static/media/material-ui-1.fd510ed8.svg": "/gabriel-rumani-portfolio/static/media/material-ui-1.fd510ed8.svg",
@@ -47,8 +46,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.afbcab91.js",
-    "static/js/2.914b9efb.chunk.js",
+    "static/js/2.89645088.chunk.js",
     "static/css/main.8ec875b1.chunk.css",
-    "static/js/main.a0273136.chunk.js"
+    "static/js/main.f177f100.chunk.js"
   ]
 }
