@@ -43,7 +43,7 @@ const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://drive.google.com/file/d/1x_xT-Tcn2KikWbsdP0MmoIVgoShT-8Gd/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1iiRz75h57gD1WdWYBvjHpN_Msd8gLLZD/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         Mi CV
                       </Button>

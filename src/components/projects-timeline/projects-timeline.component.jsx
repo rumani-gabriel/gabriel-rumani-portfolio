@@ -9,6 +9,7 @@ import formulario from "../../assets/img/projects/formulario.png";
 import crud from "../../assets/img/projects/crud.png";
 import amazon from "../../assets/img/projects/amazon.png";
 import sh from "../../assets/img/projects/sh.png";
+import j1 from "../../assets/img/projects/j1.gif";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -22,12 +23,9 @@ import Image from "react-bootstrap/Image";
 import L_REDUX from "../../assets/img/skills/redux.svg";
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
-import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
-import L_DJANGO from "../../assets/img/skills/django.svg";
-import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
-import L_GIT from "../../assets/img/skills/github-api.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
+import L_PYTHON from "../../assets/img/skills/python.svg"; 
 
 
 import "./projects-timeline.styles.css";
@@ -38,8 +36,244 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROYECTOS</h1>
       <Timeline>
         <Events>
-        
         <ImageEvent
+            date="10/01/2021"
+            className="text-center"
+            text="Jarvis IA (Python)"
+            src={j1}
+            alt="Jarvis"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      Detalles
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Descripción:</strong> Asistente virtual, inspirada en la mítica IA de Iron Man (mi héroe de la infancia y actual). Es un modelo funcional de consola, sin interfaz gráfica aún.
+                        <hr />
+                        <strong>Funciones:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Reconocimiento de voz</li>
+                          <li>Respuesta por audio</li>
+                          <li>Acceso a diversas aplicaciones</li>
+                                                  
+                        </ul>
+                        <hr />
+                        <strong>Tecnologías:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_PYTHON}
+                                alt="PYTHON"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Python
+                            </span>
+                          </li>
+                                                    
+                        </ul>
+                        <hr />
+                        
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+              <UrlButton
+                  href="https://rumani-gabriel.github.io/sh5/"
+                  target="_blank"
+                >
+                  Míralo en video
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/rumani-gabriel/jarvis-python-ia"
+                  target="_blank"
+                >
+                  Código
+                </UrlButton>
+              </div>
+            </div>
+        </ImageEvent>
+        <ImageEvent
+            date="20/12/2020"
+            className="text-center"
+            text="Second Hand (red social)"
+            src={sh}
+            alt="second hand"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      Detalles
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Descripción:</strong> La aplocación con la que me gradué, llevó unas 100 hs.. Es una red social para subir fotos y compartir comentarios. La estructura es parecida a Instagram. Está conectado a la base de datos Firebase.
+                        <hr />
+                        <strong>Funciones:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Login</li>
+                          <li>Comentar</li>
+                          <li>Publicar</li>
+                          <li>
+                            Buscar artículo en el buscador
+                          </li>
+                          
+                        </ul>
+                        <hr />
+                        <strong>Tecnologías:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="REACT"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              React JS
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REDUX}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Redux
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MATERIALUI}
+                                alt="MATERIAL UI"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Material UI
+                            </span>
+                          </li>
+                          
+                        </ul>
+                        <hr />
+                        
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+              <UrlButton
+                  href="https://rumani-gabriel.github.io/sh5/"
+                  target="_blank"
+                >
+                  Visítalo
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          <ImageEvent
+            date="20/10/2020"
+            className="text-center"
+            text="Copia de Amazon (Second Hand)"
+            src={amazon}
+            alt="Amazon"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      Detalles
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Descrición:</strong> Aplicación desarrollada en 20 hs.. Tiene imágenes aleatorias. Funciona con React JS. Tiene una estructura muy parecida a Amazon.
+                        <hr />
+                        <strong>Funciones:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Renderizar todo el contenido de manera reactiva.</li>
+                          <li>El login está presente pero no es funcional.</li>
+                          <li>El carrito de compras es funcional.</li>
+                          
+                        </ul>
+                        <hr />
+                        <strong>Tecnologías:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              React JS
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_ROUTER}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              React Router
+                            </span>
+                          </li>
+                          
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://github.com/rumani-gabriel/amazon-copy/tree/master"
+                  target="_blank"
+                >
+                  Código
+                </UrlButton>
+                <UrlButton
+                  href="https://rumani-gabriel.github.io/amazon-copy/"
+                  target="_blank"
+                >
+                  Visítalo
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>         
+        
+          <ImageEvent
             date="15/08/2020"
             className="text-center"
             text="Portero java Script"
@@ -125,13 +359,12 @@ const TimeLine = () => {
           </ImageEvent>
 
 
-
-<ImageEvent
-            date="30/08/2020"
-            className="text-center"
-            text="Página web de UMA Studios"
-            src={uma}
-            alt="uma"
+          <ImageEvent
+              date="30/08/2020"
+              className="text-center"
+              text="Página web de UMA Studios"
+              src={uma}
+              alt="uma"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -455,167 +688,8 @@ const TimeLine = () => {
                 
               </div>
             </div>
-          </ImageEvent>
-
+          </ImageEvent>          
           
-
-          <ImageEvent
-            date="20/10/2020"
-            className="text-center"
-            text="Copia de Amazon (Second Hand)"
-            src={amazon}
-            alt="Amazon"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      Detalles
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Descrición:</strong> Aplicación desarrollada en 20 hs.. Tiene imágenes aleatorias. Funciona con React JS. Tiene una estructura muy parecida a Amazon.
-                        <hr />
-                        <strong>Funciones:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Renderizar todo el contenido de manera reactiva.</li>
-                          <li>El login está presente pero no es funcional.</li>
-                          <li>El carrito de compras es funcional.</li>
-                          
-                        </ul>
-                        <hr />
-                        <strong>Tecnologías:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              React JS
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_ROUTER}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              React Router
-                            </span>
-                          </li>
-                          
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://github.com/rumani-gabriel/amazon-copy/tree/master"
-                  target="_blank"
-                >
-                  Código
-                </UrlButton>
-                <UrlButton
-                  href="https://rumani-gabriel.github.io/amazon-copy/"
-                  target="_blank"
-                >
-                  Visítalo
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
-
-          {/* Project: Portfolio using Django */}
-          <ImageEvent
-            date="20/12/2020"
-            className="text-center"
-            text="Second Hand (red social)"
-            src={sh}
-            alt="second hand"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      Detalles
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Descripción:</strong> La aplocación con la que me gradué, llevó unas 100 hs.. Es una red social para subir fotos y compartir comentarios. La estructura es parecida a Instagram. Está conectado a la base de datos Firebase.
-                        <hr />
-                        <strong>Funciones:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Login</li>
-                          <li>Comentar</li>
-                          <li>Publicar</li>
-                          <li>
-                            Buscar artículo en el buscador
-                          </li>
-                          
-                        </ul>
-                        <hr />
-                        <strong>Tecnologías:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="REACT"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              React JS
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REDUX}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Redux
-                            </span>
-                          </li>
-                          
-                        </ul>
-                        <hr />
-                        
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-              <UrlButton
-                  href="https://rumani-gabriel.github.io/sh5/"
-                  target="_blank"
-                >
-                  Visítalo
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
         </Events>
       </Timeline>
     </div>
